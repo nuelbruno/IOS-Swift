@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppDateTimeComboBox" customModule="DMCA_Admin" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCancel" destination="gpQ-Z9-L06" id="k5H-2p-tho"/>
+                <outlet property="btnCancel_ar" destination="hXa-c9-fHX" id="Zml-z4-tpq"/>
+                <outlet property="btnDone" destination="EYZ-5E-xXT" id="gIQ-sa-Nah"/>
+                <outlet property="btnDone_ar" destination="bZ7-P1-xae" id="rex-EV-9Mb"/>
+                <outlet property="datePickerView" destination="0zm-Jq-24j" id="L9M-u7-30P"/>
+                <outlet property="datePickerView_ar" destination="xVh-As-W6o" id="hAB-jk-YH2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JJq-HO-KJM">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="0zm-Jq-24j">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
+                    <date key="date" timeIntervalSinceReferenceDate="485775722.862207">
+                        <!--2016-05-24 09:42:02 +0000-->
+                    </date>
+                    <connections>
+                        <action selector="dateSelected:" destination="-1" eventType="valueChanged" id="ihN-jy-tE0"/>
+                    </connections>
+                </datePicker>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4hE-U6-TpH">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="lNJ-Fn-JjU"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem image="icn-close" id="gpQ-Z9-L06">
+                            <color key="tintColor" red="0.28627452254295349" green="0.45882353186607361" blue="0.35686275362968445" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="btnCancelClicked:" destination="-1" id="hw7-H2-Ufz"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="3cM-cK-CSS"/>
+                        <barButtonItem title="Clear" id="6yc-y2-sYt">
+                            <color key="tintColor" red="0.039215687659999998" green="0.19607843459999999" blue="0.39215686919999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="btnClearClicked:" destination="-1" id="Y9X-PP-ljr"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="jCY-0P-mJw"/>
+                        <barButtonItem image="icn-approved-plain-big" id="EYZ-5E-xXT">
+                            <color key="tintColor" red="0.039215687662363052" green="0.19607843458652496" blue="0.39215686917304993" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="btnDoneClicked:" destination="-1" id="knE-S6-twS"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0zm-Jq-24j" firstAttribute="centerX" secondItem="JJq-HO-KJM" secondAttribute="centerX" id="DqH-ss-dq4"/>
+                <constraint firstItem="4hE-U6-TpH" firstAttribute="top" secondItem="JJq-HO-KJM" secondAttribute="top" id="Lx3-u2-CAb"/>
+                <constraint firstItem="0zm-Jq-24j" firstAttribute="height" secondItem="JJq-HO-KJM" secondAttribute="height" id="QJs-aI-A7h"/>
+                <constraint firstItem="0zm-Jq-24j" firstAttribute="width" secondItem="JJq-HO-KJM" secondAttribute="width" id="RYn-jX-GQx"/>
+                <constraint firstAttribute="trailing" secondItem="4hE-U6-TpH" secondAttribute="trailing" id="bDb-KR-Cjg"/>
+                <constraint firstItem="0zm-Jq-24j" firstAttribute="centerY" secondItem="JJq-HO-KJM" secondAttribute="centerY" id="dLe-FA-BZA"/>
+                <constraint firstItem="4hE-U6-TpH" firstAttribute="leading" secondItem="JJq-HO-KJM" secondAttribute="leading" id="zDz-AK-xeC"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" red="0.67450982332229614" green="0.67450982332229614" blue="0.67450982332229614" alpha="1" colorSpace="calibratedRGB"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="352" y="138"/>
+        </view>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="EFo-g3-gaE">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="xVh-As-W6o">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
+                    <date key="date" timeIntervalSinceReferenceDate="485775753.62544799">
+                        <!--2016-05-24 09:42:33 +0000-->
+                    </date>
+                    <connections>
+                        <action selector="dateSelected:" destination="-1" eventType="valueChanged" id="rrf-sf-KB6"/>
+                    </connections>
+                </datePicker>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c1y-8j-F5V">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="5Ri-8O-OW9"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem image="icn-approved-plain-big" id="bZ7-P1-xae">
+                            <color key="tintColor" red="0.039215687662363052" green="0.19607843458652496" blue="0.39215686917304993" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="btnDoneClicked:" destination="-1" id="jDe-VO-wbh"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="WQf-us-x8B"/>
+                        <barButtonItem title="Clear" id="Mhh-Wx-aK9">
+                            <color key="tintColor" red="0.1843137255" green="0.31372549020000001" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="btnClearClicked:" destination="-1" id="Rop-sH-OVb"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="eUU-Du-QhB"/>
+                        <barButtonItem image="icn-close" id="hXa-c9-fHX">
+                            <color key="tintColor" red="0.28627452254295349" green="0.45882353186607361" blue="0.35686275362968445" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="btnCancelClicked:" destination="-1" id="NL6-OY-Yqh"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="c1y-8j-F5V" firstAttribute="top" secondItem="EFo-g3-gaE" secondAttribute="top" id="13q-Er-3y9"/>
+                <constraint firstAttribute="trailing" secondItem="c1y-8j-F5V" secondAttribute="trailing" id="Cmb-F7-XJV"/>
+                <constraint firstItem="xVh-As-W6o" firstAttribute="centerX" secondItem="EFo-g3-gaE" secondAttribute="centerX" id="FKS-uO-Syy"/>
+                <constraint firstItem="xVh-As-W6o" firstAttribute="height" secondItem="EFo-g3-gaE" secondAttribute="height" id="FWF-Kf-fO0"/>
+                <constraint firstItem="xVh-As-W6o" firstAttribute="centerY" secondItem="EFo-g3-gaE" secondAttribute="centerY" id="H7I-Fp-a9k"/>
+                <constraint firstItem="c1y-8j-F5V" firstAttribute="leading" secondItem="EFo-g3-gaE" secondAttribute="leading" id="PsV-1M-rTj"/>
+                <constraint firstItem="xVh-As-W6o" firstAttribute="width" secondItem="EFo-g3-gaE" secondAttribute="width" id="s54-Ub-8CR"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" red="0.67450982329999998" green="0.67450982329999998" blue="0.67450982329999998" alpha="1" colorSpace="calibratedRGB"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="352" y="445"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icn-approved-plain-big" width="21" height="16"/>
+        <image name="icn-close" width="16" height="17"/>
+    </resources>
+</document>

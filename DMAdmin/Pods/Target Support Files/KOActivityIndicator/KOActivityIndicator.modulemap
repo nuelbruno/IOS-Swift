@@ -1,0 +1,6 @@
+framework module KOActivityIndicator {
+  umbrella header "KOActivityIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}

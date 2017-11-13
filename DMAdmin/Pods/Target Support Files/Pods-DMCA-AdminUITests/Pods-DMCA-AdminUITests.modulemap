@@ -1,0 +1,6 @@
+framework module Pods_DMCA_AdminUITests {
+  umbrella header "Pods-DMCA-AdminUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

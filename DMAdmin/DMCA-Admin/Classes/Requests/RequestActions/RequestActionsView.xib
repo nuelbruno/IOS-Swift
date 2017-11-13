@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RequestActionsView" customModule="DMCA_Admin" customModuleProvider="target">
+            <connections>
+                <outlet property="btnApprove" destination="YTq-Z7-AsU" id="INV-bn-p3J"/>
+                <outlet property="btnApprove_ar" destination="eFz-aC-ysd" id="6NO-EM-FDk"/>
+                <outlet property="btnReject" destination="Ouf-rz-gEp" id="TOM-1G-Imx"/>
+                <outlet property="btnReject_ar" destination="sDP-Q2-p4d" id="x7C-AU-e46"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTq-Z7-AsU">
+                    <rect key="frame" x="0.0" y="3" width="288" height="49"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-8" maxY="0.0"/>
+                    <state key="normal" title="Approve" image="icn-approved" backgroundImage="button-bg">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnApprove:" destination="-1" eventType="touchUpInside" id="myG-0K-noI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ouf-rz-gEp">
+                    <rect key="frame" x="302" y="3" width="288" height="49"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="-4" maxY="0.0"/>
+                    <state key="normal" title="Reject" image="icn-reject" backgroundImage="button-bg">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnReject:" destination="-1" eventType="touchUpInside" id="u5S-vM-DXs"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ouf-rz-gEp" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.48" id="Dlq-Nu-ezw"/>
+                <constraint firstItem="YTq-Z7-AsU" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.9" id="XHk-aT-n6C"/>
+                <constraint firstItem="YTq-Z7-AsU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="XcZ-Ck-1ed"/>
+                <constraint firstItem="Ouf-rz-gEp" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.9" id="iTB-vV-l4U"/>
+                <constraint firstItem="Ouf-rz-gEp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="miH-Xi-Rel"/>
+                <constraint firstItem="YTq-Z7-AsU" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.48" id="qjs-xO-LZr"/>
+                <constraint firstItem="YTq-Z7-AsU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wCo-fr-xHM"/>
+                <constraint firstAttribute="trailing" secondItem="Ouf-rz-gEp" secondAttribute="trailing" constant="10" id="yIc-Cu-3Zq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="0T6-jA-ikF">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFz-aC-ysd">
+                    <rect key="frame" x="302" y="3" width="288" height="49"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-8" maxY="0.0"/>
+                    <state key="normal" title="Approve" image="icn-approved" backgroundImage="button-bg">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnApprove_ar:" destination="-1" eventType="touchUpInside" id="eEJ-jd-arM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDP-Q2-p4d">
+                    <rect key="frame" x="0.0" y="3" width="288" height="49"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="-4" maxY="0.0"/>
+                    <state key="normal" title="Reject" image="icn-reject" backgroundImage="button-bg">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnReject_ar:" destination="-1" eventType="touchUpInside" id="ENd-Se-vVu"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eFz-aC-ysd" firstAttribute="height" secondItem="0T6-jA-ikF" secondAttribute="height" multiplier="0.9" id="2er-x4-nBF"/>
+                <constraint firstItem="eFz-aC-ysd" firstAttribute="trailing" secondItem="0T6-jA-ikF" secondAttribute="trailing" constant="-10" id="3ZL-9s-fhp"/>
+                <constraint firstItem="eFz-aC-ysd" firstAttribute="centerY" secondItem="0T6-jA-ikF" secondAttribute="centerY" id="64z-v1-gie"/>
+                <constraint firstItem="eFz-aC-ysd" firstAttribute="width" secondItem="0T6-jA-ikF" secondAttribute="width" multiplier="0.48" id="Ndg-Ic-Sh0"/>
+                <constraint firstItem="sDP-Q2-p4d" firstAttribute="height" secondItem="0T6-jA-ikF" secondAttribute="height" multiplier="0.9" id="Tof-Fa-iOJ"/>
+                <constraint firstItem="sDP-Q2-p4d" firstAttribute="width" secondItem="0T6-jA-ikF" secondAttribute="width" multiplier="0.48" id="cie-vY-eMB"/>
+                <constraint firstItem="sDP-Q2-p4d" firstAttribute="centerY" secondItem="0T6-jA-ikF" secondAttribute="centerY" id="pal-3i-5Zb"/>
+                <constraint firstItem="sDP-Q2-p4d" firstAttribute="leading" secondItem="0T6-jA-ikF" secondAttribute="leading" id="rgw-5y-lHd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="519" y="508.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button-bg" width="194" height="69"/>
+        <image name="icn-approved" width="10" height="10"/>
+        <image name="icn-reject" width="10" height="10"/>
+    </resources>
+</document>

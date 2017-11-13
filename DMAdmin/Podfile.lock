@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (3.3.1)
+  - AlamofireImage (2.4.0):
+    - Alamofire (~> 3.3)
+  - Cent (5.0.0):
+    - Dollar (~> 5.0.0)
+  - Dollar (5.0.0)
+  - ENSwiftSideMenu (0.1.1)
+  - KMPlaceholderTextView (1.2.0)
+  - KOActivityIndicator (0.0.2)
+  - Localize-Swift (1.1)
+  - ReachabilitySwift (2.3.3)
+  - UIColor_Hex_Swift (2.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - Cent
+  - Dollar
+  - ENSwiftSideMenu
+  - KMPlaceholderTextView
+  - KOActivityIndicator
+  - Localize-Swift
+  - ReachabilitySwift
+  - UIColor_Hex_Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  AlamofireImage: 87408b652e0f5ae5fe364035f15aea8b9b24c77e
+  Cent: 4bfbe6037d911c0491425ae1ff8057404050fbb2
+  Dollar: 310893dd6b3799b9b155e3deb61a0492987e4d03
+  ENSwiftSideMenu: a934caefbe811e4925f172009349da4a49901307
+  KMPlaceholderTextView: cae8ee889bd38d20587eee6b2623b8218f31b8f5
+  KOActivityIndicator: 654299ef294243384510ef7821f46131e44e708b
+  Localize-Swift: 72fab22c9c271a1041082fa3b53ca64e527ccf4a
+  ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  UIColor_Hex_Swift: e91dc51f6bf252ec7bf74c8704ceedeeb7640c1c
+
+PODFILE CHECKSUM: 3e1315cf4c92bbcacc0ff78ed7b7666ce076a5bb
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,130 @@
+/*
+ Localizable.strings
+ DMCA-Admin
+ 
+ Created by Niraj Kumar on 5/15/16.
+ Copyright © 2016 Niraj Kumar. All rights reserved.
+ */
+"loading" = "Loading...";
+"loginError" = "Login Error";
+"emptyUsername" = "Please enter username";
+"invalidEmailID" = "Please enter valid username.";
+"emptyPassword" = "Please enter password";
+"invalidCredentials" = "Invalid credentials. Please try with valid username and password.";
+"adminLogin" = "Admin Login";
+"requests" = "Requests";
+"changeLanguage" = "Change Language";
+"logout" = "Logout";
+"forgotPasswordError" = "Forgot Password Error";
+"emptyEmailID" = "Email ID can not be empty. Please enter valid email id.";
+"serviceError" = "Service is currently not available. Please try again later.";
+"noRequestFound" = "No request found.";
+"requests" = "Requests";
+"pullToRefresh" = "Pull to refresh";
+"marineCraftPlateNumber" = "Marine Craft Plate Number";
+"skipperDetails" = "Skipper Details";
+"submittedBy" = "Submitted By";
+"startDateAndTime" = "Start Date & Time";
+"endDateAndTime" = "End Date & Time";
+"numberOfCrews" = "Number of Crews";
+"numberOfPassengers" = "Number of Passangers";
+"emergencyContactDetails" = "Emergency Contact Details";
+"submissionDateAndTime" = "Submission Date & Time";
+"view" = "View";
+"status" = "Status";
+"approve" = "Approve";
+"pending" = "Pending";
+"reject" = "Reject";
+"search" = "Search";
+"referenceNo" = "Ref. No:";
+"submittedByColon" = "Submitted By:";
+"startDateAndTimeColon" = "Start Date & Time:";
+"endDateAndTimeColon" = "End Date & Time:";
+"durationColon" = "Duration:";
+"journeyPurposeColon" = "Journey Purpose:";
+"destinationColon" = "Destination:";
+"crewMembersNameColon" = "Crew Members Name:";
+"numberOfCrewsColon" = "Number of Crew:";
+"passangerNamesColon" = "Passangers Name:";
+"numberOfPassangersColon" = "Number of Passangers:";
+"remarksColon" = "Remarks:";
+"statusColon" = "Status:";
+"rejectionReasonColon" = "Rejection Reason:";
+"approvalRejectionDateColon" = "Approval Date / Rejection Date:";
+"requestsView" = "Requests View";
+"approvedSuccess" = "Request Approved Successfully.";
+"rejectSuccess" = "Request Rejected Successfully.";
+"pending" = "Pending";
+"approved" = "Approved";
+"rejected" = "Rejected";
+"cancelled" = "Cancelled";
+"rescheduled" = "Rescheduled";
+"emptyRemarks" = "Please enter some remarks.";
+"enterSearchField" = "Please enter at least one field to search.";
+"noUsersFound" = "No user found";
+"requestDetails" = "Request Details";
+"SkipperDetails" = "Skipper Details";
+"CraftDetails" = "Marine Craft Details";
+"EmgContactDtails" = "Emegency Contact Details";
+"refNumber" = "Referrence Number";
+"CreatedByStr" = "Submitted By";
+"CreatedDateFormatted" = "Start Date & Time";
+"EndDateFormatted" = "End Date & Time";
+"Duration" = "Duration";
+"JourneyPurpose" = "Journey Purpose";
+"Destination" = "Destination";
+"CrewMemberNames" = "Crew Members' Name";
+"NumberOfCrews" = "Number of Crews";
+"PassengerNames" = "Passengers' Names";
+"NumberOfPassengers" = "Number of Passengers";
+"Remarks" = "Remarks";
+"RequestStatusEn" = "Request Status";
+"RequestStatusAr" = "Request Status";
+"ActionReason" = "Rejection Reason";
+"ApprovalDateFormatted" = "Approval Date/ Rejection Date";
+"SailingCoordinatesAx" = "Sailling A Geo Ordinate X";
+"SailingCoordinatesAy" = "Sailling A Geo Ordinate Y";
+"SailingCoordinatesBx" = "Sailling B Geo Ordinate X";
+"SailingCoordinatesBy" = "Sailling B Geo Ordinate Y";
+"SailingCoordinatesCx" = "Sailling C Geo Ordinate X";
+"SailingCoordinatesCy" = "Sailling C Geo Ordinate Y";
+"FirstName" = "First Name";
+"LastName" = "Last Name";
+"DateOfBirthFormatted" = "Date of Birth";
+"PhoneNumber" = "Phone Number";
+"Email" = "Email Address";
+"Country" = "Country";
+"City" = "City";
+"Address" = "Address";
+"MarineName" = "Marine Craft Name";
+"MarineArName" = "Marine Craft Name";
+"MarineCraftLisenseType" = "Marine Craft License Type";
+"MarineCraftCategoryStr" = "Category";
+"MarineCraftCategoryArStr" = "Category";
+"MarineCraftSubCategoryStr" = "Marine Craft Sub Category";
+"MarineCraftSubCategoryArStr" = "Marine Craft Sub Category";
+"Relationship" = "Relation Ship Type";
+"RelationshipAr" = "Relation Ship Type";
+"noMoreRequestFound" = "No more request found.";
+"invalidSailingEndDate" = "Invalid end date & time for sailing.";
+"invalidSubmissionEndDate" = "Invalid end date for submission.";
+"all" = "All";
+"invalidPhoneNumber" = "Invalid Phone Number";
+"resetConfirm" = "Do you want to reset all search fields?";
+"call" = "Call";
+/*
+ Images
+ */
+"icn-arrow-left" = "icn-arrow-right";
+"icn-arrow-right" = "icn-arrow-left";
+"back" = "back_ar";
+"menu" = "menu";
+"home" = "home";
+"search" = "icn-search";
+"icn-change-language" = "icn-change-language-en";
+"icn-logout" = "icn-logout";
+
+/*
+ Colors
+ */
+"navbar-item-color" = "#5DA3E4";
